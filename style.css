@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    min-height: 85vh;
+}
+
+body {
+    background-image: url("music/backgroundimg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.control-bar {
+    position: sticky;
+    z-index: 5;
+    background-color: #832b2bb8;
+    color: white;
+    height: 12vh;
+    width: 100%;
+    bottom: 0;
+}
+
+.prev-next-play {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 6vh;
+}
+
+#prev {
+    height: 2vh;
+    width: 2vw;
+}
+
+.play-pause {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    width: 1.5vw;
+}
+
+#pause {
+    visibility: hidden;
+    position: absolute;
+    top: 11px;
+}
+
+.progressbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    background-color: black;
+    /* width: 0%; */
+    /* height: 1vh; */
+    width: 50vw;
+}
+img{
+    height: 36vh;
+    width: 22vw;
+}
+.row{
+    margin: 1vh 1vw;
+}
+.navbar{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    height: 9vh;
+}
+.form-control{
+    background-color: transparent;
+}
+.form-control:focus{
+    border-color: white;
+    box-shadow: none;
+    background-color: transparent;
+    color: whitesmoke;
+}
+.btn{
+    background-color: transparent;
+    color: #ff4209d1;
+}
+#logo{
+    position: relative;
+    right: 26vw;
+    color: #ca8585;
+    font-size: 2rem;
+    font-weight: bold;
+  }
